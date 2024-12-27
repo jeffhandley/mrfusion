@@ -1,4 +1,4 @@
-import {isEmptyValue} from './utils';
+import { isEmptyValue } from './utils/index.js';
 
 export default function compareValidator(validatorProps) {
     return function validateCompare(value, context) {

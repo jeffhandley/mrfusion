@@ -1,4 +1,4 @@
-import {isEmptyValue} from './utils';
+import { isEmptyValue } from './utils/index.js';
 
 export default function minValidator(validatorProps) {
     return function validateMin(value, context) {

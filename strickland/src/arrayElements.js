@@ -1,5 +1,5 @@
-import validate from './validate';
-import {isEmptyValue} from './utils';
+import { isEmptyValue } from './utils/index.js';
+import validate from './validate.js';
 
 const initialResult = {
     isValid: true,

@@ -1,5 +1,6 @@
 import deepFreeze from 'deep-freeze';
-import required from '../src/required';
+import { jest } from '@jest/globals';
+import required from '../src/required.js';
 
 describe('required', () => {
     describe('validates', () => {

@@ -1,18 +1,14 @@
 {
   "name": "strickland",
-  "version": "2.2.0",
+  "version": "3.0.3",
   "description": "Strickland is a JavaScript validation framework with a focus on extensibility and composition",
-  "main": "./lib/strickland.js",
-  "files": [
-    "lib/"
-  ],
+  "main": "./src/strickland.js",
+  "type": "module",
   "scripts": {
     "clean": "rm -rf lib",
-    "build": "npm run lint && npm test && babel src -d lib",
     "lint": "eslint src/** test/**",
-    "test": "jest --verbose --coverage",
-    "test:watch": "jest --watch",
-    "prepare": "npm run build"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose --coverage",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
   },
   "repository": {
     "type": "git",
@@ -36,15 +32,12 @@
   },
   "homepage": "http://strickland.io",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^10.0.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "browserlist": "^1.0.1",
     "deep-freeze": "0.0.1",
     "eslint": "^5.10.0",
     "eslint-plugin-react": "^7.11.1",
-    "jest": "^29.3.1",
+    "jest": "^29.7.0",
     "lodash": "^4.17.15"
   }
 }

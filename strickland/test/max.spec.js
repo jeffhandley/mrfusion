@@ -1,5 +1,6 @@
 import deepFreeze from 'deep-freeze';
-import max from '../src/max';
+import { jest } from '@jest/globals';
+import max from '../src/max.js';
 
 describe('max', () => {
     describe('throws', () => {

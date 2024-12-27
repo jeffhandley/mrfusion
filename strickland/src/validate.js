@@ -1,5 +1,5 @@
-import every from './every';
-import objectProps from './objectProps';
+import every from './every.js';
+import objectProps from './objectProps.js';
 
 export default function validate(validator, value, context) {
     let result = true;

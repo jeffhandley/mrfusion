@@ -1,4 +1,5 @@
-import formatResult from '../src/formatResult';
+import { jest } from '@jest/globals';
+import formatResult from '../src/formatResult.js';
 
 describe('formatResult', () => {
     it('is a function', () => {

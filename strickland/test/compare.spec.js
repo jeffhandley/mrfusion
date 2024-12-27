@@ -1,5 +1,6 @@
 import deepFreeze from 'deep-freeze';
-import compare from '../src/compare';
+import { jest } from '@jest/globals';
+import compare from '../src/compare.js';
 
 describe('compare', () => {
     describe('throws', () => {

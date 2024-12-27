@@ -1,0 +1,4 @@
+// good default rules
+{
+  "extends": "eslint:recommended"
+}

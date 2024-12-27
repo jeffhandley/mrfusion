@@ -1,5 +1,6 @@
 import deepFreeze from 'deep-freeze';
-import maxLength from '../src/maxLength';
+import { jest } from '@jest/globals';
+import maxLength from '../src/maxLength.js';
 
 describe('maxLength', () => {
     describe('throws', () => {

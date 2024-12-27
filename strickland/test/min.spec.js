@@ -1,5 +1,6 @@
 import deepFreeze from 'deep-freeze';
-import min from '../src/min';
+import { jest } from '@jest/globals';
+import min from '../src/min.js';
 
 describe('min', () => {
     describe('throws', () => {

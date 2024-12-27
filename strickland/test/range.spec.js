@@ -1,5 +1,5 @@
 import deepFreeze from 'deep-freeze';
-import range from '../src/range';
+import range from '../src/range.js';
 
 describe('range', () => {
     describe('with numeric arguments', () => {

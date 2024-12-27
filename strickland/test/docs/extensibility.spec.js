@@ -1,4 +1,4 @@
-import validate, {formatResult} from '../../src/strickland';
+import validate, { formatResult } from '../../src/strickland.js';
 
 describe('docs', () => {
     describe('extensibility', () => {

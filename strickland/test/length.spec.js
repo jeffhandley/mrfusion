@@ -1,5 +1,5 @@
 import deepFreeze from 'deep-freeze';
-import length from '../src/length';
+import length from '../src/length.js';
 
 describe('length', () => {
     describe('with numeric arguments', () => {
