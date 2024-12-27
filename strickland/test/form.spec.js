@@ -1,4 +1,5 @@
-import {form, every, required, minLength, compare, validateAsync} from '../src/strickland';
+import { jest } from '@jest/globals';
+import { compare, every, form, minLength, required, validateAsync } from '../src/strickland.js';
 
 describe('form', () => {
     describe('throws', () => {

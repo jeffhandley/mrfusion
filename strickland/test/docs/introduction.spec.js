@@ -1,4 +1,4 @@
-import validate from '../../src/strickland';
+import validate from '../../src/strickland.js';
 
 describe('docs', () => {
     describe('introduction', () => {

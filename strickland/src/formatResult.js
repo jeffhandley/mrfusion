@@ -1,4 +1,4 @@
-import validate from './validate';
+import validate from './validate.js';
 
 export default function formatResult(formatter, validator) {
     if (typeof formatter !== 'function') {

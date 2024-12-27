@@ -1,6 +1,6 @@
-import validate from './validate';
-import minLengthValidator from './minLength';
-import maxLengthValidator from './maxLength';
+import maxLengthValidator from './maxLength.js';
+import minLengthValidator from './minLength.js';
+import validate from './validate.js';
 
 export default function lengthValidator(validatorProps, maxLengthProp) {
     return function validateLength(value, context) {

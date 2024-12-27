@@ -1,4 +1,4 @@
-import validate from './validate';
+import validate from './validate.js';
 
 export default function formValidator(validators, validatorProps) {
     if (typeof validators !== 'object' || Array.isArray(validators) || !validators) {

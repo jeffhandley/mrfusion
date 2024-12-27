@@ -1,4 +1,4 @@
-import validate from './validate';
+import validate from './validate.js';
 
 const initialResult = {
     isValid: true,

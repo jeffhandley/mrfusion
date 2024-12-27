@@ -1,4 +1,4 @@
-import {isEmptyValue} from './utils';
+import { isEmptyValue } from './utils/index.js';
 
 export default function maxValidator(validatorProps) {
     return function validateMax(value, context) {

@@ -1,6 +1,6 @@
-import validate from './validate';
-import minValidator from './min';
-import maxValidator from './max';
+import maxValidator from './max.js';
+import minValidator from './min.js';
+import validate from './validate.js';
 
 export default function rangeValidator(validatorProps, maxProp) {
     return function validateRange(value, context) {

@@ -1,4 +1,5 @@
-import {arrayElements, required, minLength} from '../src/strickland';
+import { arrayElements, minLength, required } from '../src/strickland.js';
+import { jest } from '@jest/globals';
 
 describe('arrayElements', () => {
     it('returns a validate function', () => {

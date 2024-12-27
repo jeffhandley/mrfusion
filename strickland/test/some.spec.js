@@ -1,4 +1,5 @@
-import {some, required, minLength, maxLength} from '../src/strickland';
+import { jest } from '@jest/globals';
+import { maxLength, minLength, required, some } from '../src/strickland.js';
 
 describe('some', () => {
     describe('throws', () => {

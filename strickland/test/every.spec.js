@@ -1,4 +1,5 @@
-import {every, required, minLength, maxLength} from '../src/strickland';
+import { jest } from '@jest/globals';
+import { every, maxLength, minLength, required } from '../src/strickland.js';
 
 describe('every', () => {
     describe('throws', () => {

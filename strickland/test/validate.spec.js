@@ -1,4 +1,5 @@
-import validate, {validateAsync, required, minLength} from '../src/strickland';
+import { jest } from '@jest/globals';
+import validate, { minLength, required, validateAsync } from '../src/strickland.js';
 
 describe('validate', () => {
     describe('throws', () => {

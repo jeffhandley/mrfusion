@@ -1,4 +1,5 @@
-import {objectProps, required, minLength, length} from '../src/strickland';
+import { jest } from '@jest/globals';
+import { length, minLength, objectProps, required } from '../src/strickland.js';
 
 describe('objectProps', () => {
     describe('throws', () => {
